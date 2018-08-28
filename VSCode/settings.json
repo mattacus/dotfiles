@@ -1,0 +1,69 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/admin/node_modules": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true
+    },
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.tabSize": 2,
+
+    "editor.minimap.enabled": false,
+    "editor.dragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "comments": "#646464",
+        }
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "diffEditor.renderSideBySide": false,
+    "emmet.showAbbreviationSuggestions": false,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {},
+    "materialTheme.accentPrevious": "Blue",
+    "workbench.colorTheme": "Nord",
+    "material-icon-theme.folders.theme": "specific",
+    "materialTheme.fixIconsRunning": false,
+    "colorInfo.languages": [
+        {
+            "selector": "javascript",
+            "colors": "css"
+        },
+        {
+            "selector": "javascriptreact",
+            "colors": "css"
+        },
+    ],
+    // "workbench.colorCustomizations": {},
+    // "materialTheme.accentPrevious": "",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "explorer.confirmDragAndDrop": false
+}
