@@ -1,0 +1,19 @@
+[user]
+	name = mattl
+	email = matt.lee.personal@gmail.com
+[core]
+	autocrlf = false
+	safecrlf = true
+	editor = nano
+	excludesfile = /Users/mattl/.gitignore_global
+[alias]
+	co = checkout
+	cm = commit -m
+	st = status
+	br = branch
+	pom = push origin master
+	type = cat-file -t
+  dump = cat-file -p
+	lg = log --color --graph --pretty=format:'%C(cyan)%h %C(green)%ad %Cgreen(%cr) %Creset-%C(red)%d%Creset %s  %C(bold blue)<%an>%Creset' --abbrev-commit --date=short
+[credential]
+	helper = osxkeychain
