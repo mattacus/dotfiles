@@ -8,6 +8,7 @@ eval `gdircolors .dir_colors`
 export PATH="/usr/local/bin:${PATH}"
 export EDITOR=/usr/bin/nano
 export RBENV_ROOT=/usr/local/var/rbenv
+export BAT_THEME="Nord"
 
 # Aliases
 alias got='git '
@@ -15,6 +16,8 @@ alias get='git '
 alias tree='tree -C'
 alias lsa='gls --color -la'
 alias ls='gls --color'
+alias cat='bat'
+alias help='tldr'
 
 # Git
 source ~/.git-completion.bash
