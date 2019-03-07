@@ -28,24 +28,45 @@
     "editor.minimap.enabled": false,
     "editor.dragAndDrop": false,
     "extensions.ignoreRecommendations": true,
-    "editor.tokenColorCustomizations": {
-        "[Material Theme Darker High Contrast]": {
-            "comments": "#646464",
-        }
-    },
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.historyExplorer.enabled": true,
     "diffEditor.renderSideBySide": false,
     "emmet.showAbbreviationSuggestions": false,
     "window.zoomLevel": 0,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorCustomizations": {},
-    "materialTheme.accentPrevious": "Blue",
+    "workbench.colorCustomizations": {
+        "[Nord]": {
+            "activityBar.background": "#282E38",
+            "activityBarBadge.foreground": "#282E38",
+            "badge.foreground": "#282E38",
+            "editorWidget.background": "#282E38",
+            "editor.background": "#282E38",
+            "editorBracketMatch.background": "#282E3800",
+            "editorGroup.background": "#282E38",
+            "editorGroupHeader.noTabsBackground": "#282E38",
+            "editorGroupHeader.tabsBackground": "#282E38",
+            "editorGutter.background": "#282E38",
+            "editorSuggestWidget.background": "#282E38",
+            "debugExceptionWidget.border": "#282E38",
+            "list.activeSelectionForeground": "#282E38",
+            "notification.infoForeground": "#282E38",
+            "notification.warningForeground": "#282E38",
+            "notification.errorForeground": "#282E38",
+            "panel.background": "#282E38",
+            "peekViewEditor.background": "#282E38",
+            "peekViewEditorGutter.background": "#282E38",
+            "peekViewResult.background": "#282E38",
+            "sideBar.background": "#282E38",
+            "tab.inactiveBackground": "#282E38",
+            "terminal.background": "#282E38",
+            "titleBar.activeBackground": "#282E38",
+            "titleBar.border": "#282E3800",
+            "titleBar.inactiveBackground": "#282E38",
+            "walkThrough.embeddedEditorBackground": "#282E38",                
+        }},
     "workbench.colorTheme": "Nord",
     "material-icon-theme.folders.theme": "specific",
-    "materialTheme.fixIconsRunning": false,
     "colorInfo.languages": [
         {
             "selector": "javascript",
@@ -56,8 +77,6 @@
             "colors": "css"
         },
     ],
-    // "workbench.colorCustomizations": {},
-    // "materialTheme.accentPrevious": "",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "emmet.syntaxProfiles": {
         "javascript": "jsx",
@@ -65,5 +84,18 @@
             "attr_quotes": "single"
         }
     },
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "auto-close-tag.activationOnLanguage": [
+        "html",
+        "xml",
+        "javascript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "editor.occurrencesHighlight": false,
+    "editor.fontWeight": "500",
+    "terminal.integrated.fontSize": 14,
+    "eslint.nodePath": "/Users/mattl/.nvm/versions/node/v10.8.0/lib/node_modules",
+    "eslint.autoFixOnSave": true,
+    "python.jediEnabled": false
 }
