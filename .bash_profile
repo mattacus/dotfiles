@@ -6,7 +6,8 @@ eval `gdircolors .dir_colors`
 
 # Set ENV variables
 export PATH="/usr/local/bin:${PATH}"
-export EDITOR=/usr/bin/nano
+export VISUAL=/usr/bin/vim
+export EDITOR="$VISUAL"
 export RBENV_ROOT=/usr/local/var/rbenv
 export BAT_THEME="Nord"
 

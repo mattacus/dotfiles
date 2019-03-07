@@ -3,7 +3,6 @@
 [core]
 	autocrlf = false
 	safecrlf = true
-	editor = nano
 	excludesfile = /Users/mattl/.gitignore_global
 [alias]
 	co = checkout
