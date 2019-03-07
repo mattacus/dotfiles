@@ -1,6 +1,5 @@
 [user]
-	name = mattl
-	email = matt.lee.personal@gmail.com
+	# These values should be set in ~/.gitconfig_local
 [core]
 	autocrlf = false
 	safecrlf = true
