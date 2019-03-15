@@ -13,11 +13,14 @@ set softtabstop=2
 set scrolloff=5
 set ai
 set si
+set hidden
 
 " Plugins
 call plug#begin()
 Plug 'arcticicestudio/nord-vim'
 Plug 'romainl/vim-cool'
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 colorscheme nord
 
