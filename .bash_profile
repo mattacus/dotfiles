@@ -10,6 +10,7 @@ export VISUAL=/usr/bin/vim
 export EDITOR="$VISUAL"
 export RBENV_ROOT=/usr/local/var/rbenv
 export BAT_THEME="Nord"
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Aliases
 alias got='git '
